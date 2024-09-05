@@ -1,0 +1,99 @@
+/* common css start  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: my_font;
+    src: url(../my_fonts/Reey-Regular.otf);
+}
+
+/* common css end */
+h1{
+    font-family: "Dm Sans", sans-serif;
+
+}
+body{
+    background-color: rgba(55, 0, 255, 0.575);
+}
+
+/* ===== autotype part start ===== */
+.autotype {
+	display: block;
+	border: 4px solid #05f91d;
+	/* width: 290px; */
+	height: auto;
+	padding: 20px;
+	
+	/*centers it in the .banner*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.autotype h1 {
+	display: inline;
+}
+
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+/* ===== autotype part end ===== */
+
+/* =====  part start ===== */
+/* =====  part end ===== */
+
+/* =====  part start ===== */
+/* =====  part end ===== */
+
+/* =====  part start ===== */
+/* =====  part end ===== */
+
+/* =====  part start ===== */
+/* =====  part end ===== */
+
+/* =====  part start ===== */
+/* =====  part end ===== */
